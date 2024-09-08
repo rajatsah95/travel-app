@@ -1,0 +1,244 @@
+{
+    "destinations": {
+      "dest1": {
+        "name": "Paris",
+        "country": "France",
+        "description": "Paris, the city of light, is renowned for its art, fashion, and culture. Visitors can enjoy iconic landmarks such as the Eiffel Tower and Louvre Museum. The city’s charming cafes and historic architecture create an unforgettable experience.",
+        "profileImg": "https://picsum.photos/id/0/5000/3333",
+        "additionalImages": [
+          "https://picsum.photos/id/1/5000/3333",
+          "https://picsum.photos/id/2/5000/3333"
+        ],
+        "averageBudget": 2000,
+        "adminFlag": true
+      },
+      "dest2": {
+        "name": "Nice",
+        "country": "France",
+        "description": "Nice is a beautiful city located on the French Riviera. Known for its stunning Mediterranean coastline and vibrant cultural scene, it offers a perfect blend of sun, sea, and sophistication. The Promenade des Anglais and the old town are must-see attractions.",
+        "profileImg": "https://picsum.photos/id/3/5000/3333",
+        "additionalImages": [
+          "https://picsum.photos/id/4/5000/3334",
+          "https://picsum.photos/id/5/5000/3333"
+        ],
+        "averageBudget": 2200,
+        "adminFlag": false
+      },
+      "dest3": {
+        "name": "Lyon",
+        "country": "France",
+        "description": "Lyon, known for its rich history and architectural heritage, offers a unique cultural experience. The city is famous for its Renaissance old town, its vibrant food scene, and its annual Festival of Lights. It’s a blend of historical charm and modern vibrancy.",
+        "profileImg": "https://picsum.photos/id/6/5000/3333",
+        "additionalImages": [
+          "https://picsum.photos/id/7/4728/3168",
+          "https://picsum.photos/id/8/5000/3333"
+        ],
+        "averageBudget": 2100,
+        "adminFlag": false
+      },
+      "dest4": {
+        "name": "Bordeaux",
+        "country": "France",
+        "description": "Bordeaux is renowned for its wine and elegant architecture. The city boasts beautiful 18th-century buildings, a lively riverfront, and world-class wine regions. Bordeaux combines historic charm with a modern lifestyle, offering a rich cultural and gastronomic experience.",
+        "profileImg": "https://picsum.photos/id/9/5000/3269",
+        "additionalImages": [
+          "https://picsum.photos/id/10/2500/1667",
+          "https://picsum.photos/id/11/2500/1667"
+        ],
+        "averageBudget": 2300,
+        "adminFlag": true
+      },
+      "dest5": {
+        "name": "New York",
+        "country": "USA",
+        "description": "New York City, often called 'The City That Never Sleeps,' is a bustling metropolis known for its iconic landmarks like Times Square and Central Park. The city offers a diverse array of cultural experiences, from Broadway shows to world-class museums and restaurants.",
+        "profileImg": "https://picsum.photos/id/12/2500/1667",
+        "additionalImages": [
+          "https://picsum.photos/id/13/2500/1667",
+          "https://picsum.photos/id/14/2500/1667"
+        ],
+        "averageBudget": 3000,
+        "adminFlag": false
+      },
+      "dest6": {
+        "name": "San Francisco",
+        "country": "USA",
+        "description": "San Francisco, known for its iconic Golden Gate Bridge and vibrant tech scene, is a city with diverse neighborhoods and stunning bay views. Visitors can explore Fisherman's Wharf, Alcatraz Island, and the historic cable cars, making it a city full of unique experiences.",
+        "profileImg": "https://picsum.photos/id/15/2500/1667",
+        "additionalImages": [
+          "https://picsum.photos/id/16/2500/1667",
+          "https://picsum.photos/id/17/2500/1667"
+        ],
+        "averageBudget": 2900,
+        "adminFlag": false
+      },
+      "dest7": {
+        "name": "Tokyo",
+        "country": "Japan",
+        "description": "Tokyo is a bustling metropolis known for its blend of traditional and modern influences. The city offers vibrant street life, historic temples, and cutting-edge technology. Attractions like Shibuya Crossing and the Tokyo Tower provide a unique urban experience.",
+        "profileImg": "https://picsum.photos/id/18/2500/1667",
+        "additionalImages": [
+          "https://picsum.photos/id/19/2500/1667",
+          "https://picsum.photos/id/20/3670/2462"
+        ],
+        "averageBudget": 2500,
+        "adminFlag": false
+      },
+      "dest8": {
+        "name": "Kyoto",
+        "country": "Japan",
+        "description": "Kyoto is renowned for its classical Buddhist temples, stunning gardens, and traditional tea houses. The city offers a glimpse into Japan’s rich cultural heritage with its beautiful temples, shrines, and historic neighborhoods.",
+        "profileImg": "https://picsum.photos/id/21/3008/2008",
+        "additionalImages": [
+          "https://picsum.photos/id/22/4434/3729",
+          "https://picsum.photos/id/23/3887/4899"
+        ],
+        "averageBudget": 2300,
+        "adminFlag": true
+      },
+      "dest9": {
+        "name": "Osaka",
+        "country": "Japan",
+        "description": "Osaka is known for its modern architecture, vibrant street food scene, and bustling nightlife. The city is a cultural hub with attractions such as Osaka Castle and the Universal Studios theme park, making it a dynamic place to explore.",
+        "profileImg": "https://picsum.photos/id/24/4855/1803",
+        "additionalImages": [
+          "https://picsum.photos/id/25/5000/3333",
+          "https://picsum.photos/id/26/4209/2769"
+        ],
+        "averageBudget": 2400,
+        "adminFlag": false
+      },
+      "dest10": {
+        "name": "Hiroshima",
+        "country": "Japan",
+        "description": "Hiroshima is known for its Peace Memorial Park, which commemorates the victims of the atomic bombing during World War II. The city also offers beautiful parks and a vibrant local culture, making it a place of reflection and renewal.",
+        "profileImg": "https://picsum.photos/id/27/3264/1836",
+        "additionalImages": [
+          "https://picsum.photos/id/28/4928/3264",
+          "https://picsum.photos/id/29/4000/2670"
+        ],
+        "averageBudget": 2200,
+        "adminFlag": false
+      },
+      "dest11": {
+        "name": "Sydney",
+        "country": "Australia",
+        "description": "Sydney is famous for its stunning harbor, iconic Sydney Opera House, and beautiful beaches. The city offers a mix of cultural events, outdoor activities, and world-renowned landmarks, making it a top destination for travelers.",
+        "profileImg": "https://picsum.photos/id/30/1280/901",
+        "additionalImages": [
+          "https://picsum.photos/id/31/3264/4912",
+          "https://picsum.photos/id/32/4032/3024"
+        ],
+        "averageBudget": 2800,
+        "adminFlag": false
+      },
+      "dest12": {
+        "name": "Melbourne",
+        "country": "Australia",
+        "description": "Melbourne is known for its vibrant arts scene, coffee culture, and diverse neighborhoods. The city offers a blend of historic charm and modern attractions, with numerous galleries, theaters, and festivals to enjoy.",
+        "profileImg": "https://picsum.photos/id/33/5000/3333",
+        "additionalImages": [
+          "https://picsum.photos/id/34/3872/2592",
+          "https://picsum.photos/id/35/2758/3622"
+        ],
+        "averageBudget": 2500,
+        "adminFlag": false
+      },
+      "dest13": {
+        "name": "Brisbane",
+        "country": "Australia",
+        "description": "Brisbane is known for its warm climate, outdoor lifestyle, and friendly atmosphere. The city offers beautiful parks, a thriving arts scene, and plenty of opportunities for outdoor activities, including nearby beaches and hinterland adventures.",
+        "profileImg": "https://picsum.photos/id/36/4179/2790",
+        "additionalImages": [
+          "https://picsum.photos/id/37/2000/1333",
+          "https://picsum.photos/id/38/1280/960"
+        ],
+        "averageBudget": 2300,
+        "adminFlag": true
+      },
+      "dest14": {
+        "name": "Rio de Janeiro",
+        "country": "Brazil",
+        "description": "Rio de Janeiro is famous for its vibrant Carnival festival, stunning beaches like Copacabana, and the iconic Christ the Redeemer statue. The city’s lively atmosphere and beautiful landscapes make it a popular destination for tourists.",
+        "profileImg": "https://picsum.photos/id/39/4752/3168",
+        "additionalImages": [
+          "https://picsum.photos/id/40/4032/3024",
+          "https://picsum.photos/id/41/4160/3120"
+        ],
+        "averageBudget": 2200,
+        "adminFlag": true
+      },
+      "dest15": {
+        "name": "Rome",
+        "country": "Italy",
+        "description": "Rome is a city rich in history and culture, known for its ancient ruins, magnificent churches, and vibrant street life. Key attractions include the Colosseum, Vatican City, and the historic center, offering a blend of historical grandeur and modern charm.",
+        "profileImg": "https://picsum.photos/id/42/5472/3648",
+        "additionalImages": [
+          "https://picsum.photos/id/43/4032/3024",
+          "https://picsum.photos/id/44/4896/3264"
+        ],
+        "averageBudget": 2100,
+        "adminFlag": true
+      },
+      "dest16": {
+        "name": "Florence",
+        "country": "Italy",
+        "description": "Florence, the cradle of the Renaissance, is known for its extraordinary art, architecture, and rich cultural heritage. Visitors can explore masterpieces by Michelangelo and Leonardo da Vinci, as well as the stunning Florence Cathedral and Ponte Vecchio.",
+        "profileImg": "https://picsum.photos/id/45/4000/2670",
+        "additionalImages": [
+          "https://picsum.photos/id/46/3277/2188",
+          "https://picsum.photos/id/47/3264/2176"
+        ],
+        "averageBudget": 2000,
+        "adminFlag": false
+      },
+      "dest17": {
+        "name": "Venice",
+        "country": "Italy",
+        "description": "Venice is renowned for its canals, historic buildings, and romantic ambiance. The city's unique waterways and beautiful architecture, including St. Mark's Basilica and the Rialto Bridge, offer an enchanting experience for visitors.",
+        "profileImg": "https://picsum.photos/id/48/3264/2176",
+        "additionalImages": [
+          "https://picsum.photos/id/49/4912/3264",
+          "https://picsum.photos/id/50/4000/2667"
+        ],
+        "averageBudget": 2200,
+        "adminFlag": false
+      },
+      "dest18": {
+        "name": "Milan",
+        "country": "Italy",
+        "description": "Milan is a global capital of fashion and design, known for its sophisticated shopping districts and vibrant nightlife. The city is home to stunning landmarks such as the Milan Cathedral and the historic La Scala opera house.",
+        "profileImg": "https://picsum.photos/id/51/4000/2670",
+        "additionalImages": [
+          "https://picsum.photos/id/52/4000/2670",
+          "https://picsum.photos/id/53/1280/1280"
+        ],
+        "averageBudget": 2400,
+        "adminFlag": false
+      },
+      "dest19": {
+        "name": "Istanbul",
+        "country": "Turkey",
+        "description": "Istanbul, a city straddling Europe and Asia, offers a rich blend of cultures and histories. From the stunning Hagia Sophia to the bustling Grand Bazaar, visitors can experience the city's diverse heritage and vibrant atmosphere.",
+        "profileImg": "https://picsum.photos/id/54/3264/2176",
+        "additionalImages": [
+          "https://picsum.photos/id/55/4608/3072",
+          "https://picsum.photos/id/56/2880/1920"
+        ],
+        "averageBudget": 1900,
+        "adminFlag": false
+      },
+      "dest20": {
+        "name": "Antalya",
+        "country": "Turkey",
+        "description": "Antalya is known for its stunning beaches, turquoise waters, and ancient ruins. The city offers a mix of relaxation and adventure, with beautiful coastal scenery and historical sites like the ancient city of Perge.",
+        "profileImg": "https://picsum.photos/id/57/2448/3264",
+        "additionalImages": [
+          "https://picsum.photos/id/58/1280/853",
+          "https://picsum.photos/id/59/2464/1632"
+        ],
+        "averageBudget": 1700,
+        "adminFlag": false
+      }
+    }
+  }
