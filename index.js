@@ -8,6 +8,8 @@ let [flag,setFlag]=useState(false)
 let [mflag,setmflag]=useState(true)
 let [theme,setTheme]=useState(true)
 let [search,setsearch]=useState("")
+let [pagedata,setPagedata]=useState({})
+let [page,setPage]=useState(true)
 
 let fetchdata=()=>
     {
@@ -32,8 +34,9 @@ let fetchdata=()=>
             
         }
 
-    let Showdata=({traveldata,fetchdata,mflag,setmflag})=>
+    let Showdata=({traveldata,fetchdata,mflag,setmflag,page,pagedata,setPage,setPagedata})=>
     {
+      
 
         let handledelete=(id)=>
             {
@@ -67,9 +70,8 @@ let fetchdata=()=>
             
                
                 }
-        let [pagedata,setPagedata]=useState({})
-        let [page,setPage]=useState(true)
-        console.log(traveldata)
+        
+       
 
         let handlesinglepage=(ele)=>
             {
@@ -132,6 +134,7 @@ let fetchdata=()=>
                    
                     <p><b>Name : </b>{pagedata.name}</p>
                     <p><b>Country : </b>{pagedata.country}</p>
+                    <p><b>Description : </b>{pagedata.description}</p>
                     <p><b>AverageBudget : </b>{pagedata.averageBudget}</p>
                     {pagedata.adminFlag?<><button>Update</button><button>Delete</button></>:<h4>View Access only</h4>}
                     
@@ -211,15 +214,7 @@ let fetchdata=()=>
    
   
     
-      function App() {
-        return (
-          <div className="container mt-5">
-            <h1>React Bootstrap Carousel</h1>
-            <Carousel />
-          </div>
-        );
-      }
-
+  
       let handleselect1=(e)=>
       {
         if(e.target.value=="allcountry")
@@ -372,7 +367,7 @@ console.log(narr)
          
        {mflag?
         
-        <Showdata traveldata={traveldata} fetchdata={fetchdata} mflag={mflag} setmflag={setmflag}/>
+        <Showdata traveldata={traveldata} fetchdata={fetchdata} mflag={mflag} setmflag={setmflag} page={page} setPage={setPage} pagedata={pagedata} setPagedata={setPagedata}/>
        :
        <Form mflag={mflag} setmflag={setmflag} fetchdata={fetchdata}/>
       
